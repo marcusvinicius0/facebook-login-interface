@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #F0F2F5;
+}
+
+.logo {
+    width: 50vw;
+    /*view width*/
+}
+
+.containerDentro {
+    margin-top: 32vh;
+    margin-left: 15vw;
+}
+
+.facebook {
+    font-family: 'Roboto', sans-serif;
+    color: #1877F2;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.paragrafo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+    color: #1C1E21;
+}
+
+
+/*------------------------------*/
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 28vw;
+    height: 50vh;
+    background-color: #FFFFFF;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.164);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input {
+    width: 26vw;
+    height: 7vh;
+    padding-left: 12px;
+    font-size: 17px;
+    border: 1px solid rgb(218, 218, 218);
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+input::placeholder {
+    color: rgb(112, 112, 112)
+}
+
+.buttonEnter {
+    background-color: #1877F2;
+    width: 26vw;
+    height: 7vh;
+    text-decoration: none;
+    color: #FFFFFB;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonEnter:hover {
+    background-color: #166FE5;
+}
+
+.link-senha {
+    text-decoration: none;
+    color: #188CF5;
+    margin-top: 10px;
+}
+
+.row {
+    width: 95%;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.button-creatAccount {
+    background-color: #42b72a;
+    border-radius: 6px;
+    border: none;
+    height: 49px;
+    width: 13vw;
+    font-size: 17px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.button-creatAccount:hover {
+    background-color: #36A420;
+}
+
+.criar-pagina {
+    margin-top: 30px;
+    padding-left: 118px;
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: #166FE5;
+}
