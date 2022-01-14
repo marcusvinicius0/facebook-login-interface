@@ -17,6 +17,7 @@
 ## 🤝 Colaboradores
 
 <a href="https://www.linkedin.com/in/marcusviniciusbeghelisantos/" target="_blank">Marcus Vinícius</a>
+<br>
 <a href="https://www.linkedin.com/in/thiago-leal-de-souza-56046020b/" target="_blank">Thiago Leal</a>
 
 
